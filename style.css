@@ -1,0 +1,699 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.adress{
+	display: flex;
+}
+
+.adress1{
+	display: flex;
+	margin: 18px 0;
+}
+
+.adress2{
+	display: flex;
+	margin: 18px 0;
+	margin-left: 10px;
+}
+
+.adress i{
+	float: left;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 9px 11px;
+    color: white;
+    background-color: rgb(25,51,108);
+    margin-top: 4px;
+}
+
+.adress p{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	color: black;
+}
+
+.adress-icon {
+	float: right;
+}
+
+.adress-icon i{
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	background-color: white;
+	color: black;
+	font-size: 13px;
+	padding: 6px 8px;
+	float: left;
+	margin: 20px 0;
+	margin-right:10px ;
+}
+
+.adress-icon span i{
+	color:white;
+	background-color: hsl(40deg 43% 50%);
+}
+
+.navbar{
+background-color: hsl(222deg 69% 26%);
+padding: 16px 40px;
+
+}
+
+.nav1{
+	display:flex;
+}
+
+.nav2 li{
+	display:inline-block;
+	padding-right: 16px;
+}
+
+.nav1 i{
+	color: hsl(40deg 43% 50%);
+	font-size: 40px;
+	margin-right: 15px;
+}
+
+.nav1 span{
+	color: hsl(40deg 43% 50%);
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.nav1 p{
+	font-size: 28px;
+	margin-bottom: 0;
+}
+
+.nav2 ul{
+	margin-bottom: 0;
+}
+
+.nav2 li span i{
+	color: white;
+    background-color:hsl(40deg 43% 50%);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.heading h1{
+	color: white;
+	font-size: 70px;
+	font-weight: 700;
+	padding: 220px 0 50px 0;
+}
+
+.btn1{
+	 color: white;
+	 font-weight: bold;
+     background-color:hsl(40deg 43% 50%);
+     margin-right: 20px;
+     padding: 10px 25px;
+     border-radius: 0;
+}
+
+.btn2{
+	color: hsl(40deg 43% 50%);
+	font-weight: bold;
+	background-color: white;
+	 padding: 10px 25px;
+     border-radius: 0;
+}
+#head-bottom{
+	margin-top: -115px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#head-bottom i{
+	color: hsl(40deg 43% 50%);
+	float: left;
+	font-size: 30px;
+    padding-right: 15px;
+}
+
+#head-bottom h5{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#head-bottom p{
+	color: gray;
+	font-size: 14px;
+}
+
+.headline{
+	background-image: url(img/1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 750px;
+	margin-top: -40px;
+	z-index: -1;
+	position: relative;
+	
+
+}
+.headline:before{
+	content: '';
+	background-color:rgba(25,51, 108, 0.7);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+
+}
+
+.about{
+	padding: 120px 0  0  0;
+
+}
+
+.about h1{
+	font-size:37px;
+	font-weight: bold;
+	padding-bottom: 30px;
+} 
+
+.about p{
+	color: gray;
+	margin-bottom: 30px;
+	font-size: 15px;
+}  
+
+.about .btn{
+	color: white;
+	font-weight: bold;
+	background-color:hsl(40deg 43% 50%) ;
+	width: 170px;
+	height: 50px;
+	border-radius: 3px;
+}
+
+
+.about h6{
+    color: white;
+    font-size: 25px;
+    background-color:hsl(40deg 43% 50%);
+    padding: 12px 40px;
+    width: 220px;
+    position: relative;
+    top: -70px;
+    left: 230px;
+    outline: 7px solid white;
+   
+}
+
+.about h6 span{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.service {
+	background: rgb(20,48,111);
+    background: linear-gradient(171deg, rgba(20,48,111,1) 72%, rgba(255,255,255,1) 72%);
+	padding: 100px 0 0px 0;
+	background-color: ;
+}
+
+.service h1{
+	color: white;
+	font-size:; 40px;
+	font-weight: bold;
+	padding: 10px 40px 10px 122px;
+
+}
+
+.service h6{
+	color: white;
+	border-left: 3px solid hsl(40deg 43% 50%);
+	padding-left: 50px;
+	font-size: 22px;
+	line-height: 30px;
+	padding-right: 70px;
+
+}
+
+.service-box{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin: 40px 0;
+	background-color: white;
+	padding: 40px 20px 45px 20px;
+}
+
+.service-box h5{
+	border-left: 3px solid hsl(40deg 43% 50%);
+	margin: 40px 0 20px 0;
+	padding-left: 10px;
+	font-weight: bold;
+
+}
+
+.service-box p{
+	color: gray;
+	font-size: 15px;
+}
+
+.service-box span{
+	font-weight: bold;
+	color: gray;
+}
+
+.team-section{
+	padding: 120px 0 80px 0;
+	background: rgb(20,48,111);
+    background: linear-gradient(360deg, rgba(20,48,111,1) 32%, rgba(255,255,255,1) 32%);
+
+}
+
+.team-section h1{
+	font-weight: bold;
+	
+}
+
+.team-section p{
+	font-size: 20px;
+	color: gray;
+}
+
+.team-section .member{
+	margin-top: 50px;
+}
+
+.member h5{
+	color: white;
+	margin-top: 30px;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.member p{
+	font-size: 15px;
+	color: white;
+}
+
+.img-box{
+	position: relative;
+}
+
+.img-box:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+    background: rgb(182 146 73 / 80%);
+    transition: all 0.3s;
+    
+}
+
+.member:hover .img-box:before{
+	opacity: 1;
+	visibility: visible;
+}
+
+.box-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.box-icon i{
+	border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: white;
+    color: hsl(40deg 43% 50%);
+    font-size: 16px;
+    padding: 14px 16px;
+    float: left;
+    margin-right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.member:hover .box-icon i{
+	opacity: 1;
+	visibility: visible;
+}
+
+.testimonial{
+	margin: 100px 0;
+}
+
+.testimonial .test-1 p{
+	font-size: 22px;
+	color: gray;
+	margin: 26px 0;
+}
+
+.testimonial .test-icon{
+	font-size: 45px;
+	color:hsl(40deg 43% 50%) ;
+}
+
+.testimonial .test-para{
+	font-size: 20px; 
+	line-height: 26px;
+	color: gray;
+
+}
+
+.testimonial .test-img img{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.testimonial .test-name h5{
+	font-weight: bold;
+	color: black;
+	padding-top: 20px;
+
+}
+
+.testimonial .test-name p{
+	font-size: 15px;
+	color: gray;
+
+}
+
+.test-col{
+	opacity: 0.3;
+}
+
+.test-col:hover{
+	opacity: 1;
+}
+
+.test-col.active{
+    opacity:1;
+}
+
+.portfolio{
+	margin: 70px 0;
+}
+
+.portfolio .port-heading h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.portfolio .port-heading p{
+	color: gray;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+.counter{
+	background-image: url(img/18.jpg);
+	background-size: cover;
+	height: 720px;
+	position: relative;
+
+}
+
+.counter:before{
+	content: '';
+	 background: linear-gradient(79deg, rgb(182 146 73 / 70%) 72% , rgb(255 255 255 / 0%) 72%);
+	 width:73%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+
+}
+
+.counter .count-1 h1{
+     font-size: 38px;
+     font-weight: bold;
+     margin-top: 100px;
+}
+
+.counter .count-1 p{
+	font-size: 20px;
+	margin: 15px 0 30px 0;
+}
+
+.counter .count-2 span{
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.counter .count-2 p{
+	font-size: 25px;
+	
+}
+
+.counter .count-icon{
+	border: 7px solid white;
+    border-radius: 50%;
+    background-color: hsl(40deg 43% 50%);
+    color: white;
+    width: 80px;
+    height: 80px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 63px;
+    outline: 2px solid darkblue;
+    display: inline-block;
+    position: absolute;
+    left: 54%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.blog{
+	margin: 70px 0 200px 0;
+}
+
+.blog .blog-img{
+	margin-top: 40px;
+    position: relative;
+}
+
+.blog .blog-img img{
+	width: 365px;
+	height: 400px;
+}
+
+.blog .blog-1 h1{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.blog .blog-1 p{
+	font-size: 20px;
+	color: gray;
+	line-height: 30px;
+}
+.blog-content{
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	background-color: white;
+	padding: 20px;
+	width: 85%;
+	margin-top: -120px;
+	position: absolute;
+	margin-left: 20px;
+
+}
+
+.blog-content button{
+	border-radius:0;
+	height: 30px;
+	width: 90px;
+	line-height: 16px;
+	margin-bottom: 25px;
+	background-color:hsl(40deg 43% 50%) ;
+	color: white;
+}
+
+.blog-content h5{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.blog-content p{
+	color: gray;
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.blog-content p span{
+    border-left: 1px solid gray;
+    padding-left: 16px;
+    margin-left: 16px;
+    padding-right: 44px;
+}
+
+
+.footer{
+	background-color: #14306f;
+	padding: 100px 0 70px 0;
+}
+
+.footer .footer-1 i{
+	color: hsl(40deg 43% 50%);
+    float: left;
+    font-size: 21px;
+    padding-right: 32px;
+    padding-top: 14px;
+}
+
+.footer .footer-2 li{
+	list-style: none;
+	padding-bottom: 15px;
+
+}
+
+.footer .footer-3 input{
+	width: 100%;
+	height: 58px;
+	padding-left: 10px;
+	margin-bottom: 13px;
+}
+
+.footer .footer-3 button{
+	width: 100%;
+    height: 45px;
+    border-radius: 0;
+    background-color: hsl(40deg 43% 50%);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.footer-bottom{
+	padding: 28px 0 18px 0;
+	background-color: #0d214d;
+	font-weight: 600;
+}
+
+.footer h5{
+	padding-bottom: 40px;
+	position: relative;
+	font-weight: bold;
+}
+
+.footer h5:before{
+	content: '';
+    background-color: hsl(40deg 43% 50%);
+    width: 35px;
+    height: 2px;
+    top: 35px;
+    left: -2px;
+    position: absolute;
+}
+
+.footer h5:after{
+	content: '';
+    background-color: hsl(45deg 0% 35%);
+    width: 70px;
+    height: 2px;
+    top: 35px;
+    left: 33px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 425px){
+		.heading h1 {
+	    font-size: 42px;
+	    padding: 160px 0 50px 0;
+}
+	   
+@media only screen and (max-width: 425px){
+	
+	.headline button{
+    padding: 0px 3px;
+    border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 425px){
+	.about h6 {
+    font-size: 15px;
+    padding: 5px 5px;
+    width: 100px;
+    position: relative;
+    top: -70px;
+    left: 230px;
+    outline: 5px solid white;
+}
+
+@media only screen and (max-width: 425px){
+    .about h6 span {
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 425px){
+    .about h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 425px){
+    .about .btn {
+    width: 140px;
+    height: 45px;
+    margin-bottom: 6px;
+}
+
+.service h1 {
+    font-size:30px ;
+    padding-left: 50px;
+    margin-bottom: 20px;
+ }
+
+.service h6{
+	font-size:18px ;
+}
+
+.team-section {
+    padding: 0;
+}
+
+
+.team-section h1{
+    font-size: 30px;
+}
+
+.team-section p{
+    font-size: 16px;
+}
+
+.member-name{
+    background-color: rgba(20,48,111,1);
+}
+
+.member h5{
+    margin-top: 0;
+    padding: 5px 0;
+}
+
+@media only screen and (max-width: 320px){
+	.about h6 {
+    font-size: 10px;
+    padding: 3px 4px;
+    width: 65px;
+    position: relative;
+    top: -50px;
+    left: 180px;
+    outline: 3px solid white;
+}
+
+
